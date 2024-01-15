@@ -1,2 +1,39 @@
-# screenshot-gpt
-GUI application that captures screenshots and sends the extracted text to the OpenAI API to generate responses; built using the customtkinter library.
+# Screenshot GPT
+Screenshot GPT is an open-source Python GUI application built using the customtkinter library. It captures screenshots, extracts text, sends it to the OpenAI API, and displays the generated responses.
+
+## Screenshots
+![Options](screenshots/options.png)
+![Results](screenshots/results.png)
+
+## Features
+* Choose light or dark appearance modes
+* Define custom left, upper, right, and lower crop coordinates
+* Provide context and language for the prompt
+* Select between different GPT-4 and GPT-3.5 models
+* Secretly enter your API key
+* View detailed results with images, extracted texts, and responses
+
+## Dependencies
+* tkinter
+* tkinter.messagebox
+* customtkinter
+* openai
+* pyautogui
+* pillow
+* easyocr
+
+## Installation
+**1. Clone the repository**
+```bash
+git clone https://github.com/PouyaMT/screenshot-gpt.git
+```
+
+**2. Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+**3. Run the script**
+```bash
+python screenshot_gpt.py
+```
