@@ -2,8 +2,8 @@
 Screenshot GPT is an open-source Python GUI application built using the customtkinter library. It captures screenshots, extracts text, sends it to the OpenAI API, and displays the generated responses.
 
 ## Screenshots
-![Options](screenshots/options.png)
-![Results](screenshots/results.png)
+<img src="screenshots/options.png" alt="Options" width="200"/>
+<img src="screenshots/results.png" alt="Results" width="200"/>
 
 ## Features
 * Choose light or dark appearance modes
