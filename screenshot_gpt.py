@@ -7,7 +7,7 @@ from PIL import Image
 import easyocr
 
 
-# Global variabless
+# Global variables
 global crop_left_var, crop_top_var, crop_right_var, crop_bottom_var, \
     language_box, context_box, model_box, extracted_box, response_box, \
     show_full_screen_button, show_crop_button, error_label, tab_view, \
