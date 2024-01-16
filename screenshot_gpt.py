@@ -110,7 +110,7 @@ def ask_question(question, context):
         insert_results()
 
 
-# Handles the full screen screenshot mode
+# Handles the full screen screenshot mode.
 def full_screen():
     take_screenshot()
     read_screenshot()
@@ -118,7 +118,7 @@ def full_screen():
     ask_question(result_str, context_entry.get())
 
 
-# Handles the cropped screenshot mode
+# Handles the cropped screenshot mode.
 def crop():
     take_screenshot()
     crop_screenshot()
