@@ -14,26 +14,26 @@ Screenshot GPT is an open-source Python GUI application built using the customtk
 * View detailed results with images, extracted texts, and responses
 
 ## Dependencies
+* customtkinter
 * tkinter
 * tkinter.messagebox
-* customtkinter
-* openai
 * pyautogui
 * pillow
 * easyocr
-
+* openai
+  
 ## Installation
 **1. Clone the repository**
 ```bash
 git clone https://github.com/PouyaMT/screenshot-gpt.git
 ```
 
-**2. Install dependencies**
+**2. Install the dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
 **3. Run the script**
 ```bash
-python screenshot_gpt.py
+python main.py
 ```
