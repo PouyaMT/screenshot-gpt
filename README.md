@@ -6,11 +6,9 @@ Screenshot GPT is an open-source Python GUI application built using the customtk
 <img src="screenshots/results.png" alt="Results" width="400"/>
 
 ## Features
-* Choose light or dark appearance modes
-* Define custom left, upper, right, and lower crop coordinates
-* Provide context and language for the prompt
-* Select between different GPT-4 and GPT-3.5 models
-* Secretly enter your API key
+* Supports custom left, upper, right, and lower crop coordinates
+* Choose between different GPT-4 and GPT-3.5 text models
+* Input and manage your API key for accessing the AI models
 * View detailed results with images, extracted texts, and responses
 
 ## Dependencies
