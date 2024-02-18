@@ -186,12 +186,16 @@ GPT-4 models can solve difficult problems with greater accuracy.
 GPT-3.5 models can understand and generate natural language.
 
 Context Window:
+    gpt-4-0125-preview: 128,000 tokens
+    gpt-4-turbo-preview: 128,000 tokens
     gpt-4-1106-preview: 128,000 tokens
     gpt-3.5-turbo-1106: 16,385 tokens
     gpt-3.5-turbo-16k: 16,385 tokens
     gpt-3.5-turbo: 4,096 tokens
 
 Training Data:
+    gpt-4-0125-preview: Up to Dec 2023
+    gpt-4-turbo-preview: Up to Dec 2023
     gpt-4-1106-preview: Up to Apr 2023
     gpt-3.5-turbo-1106: Up to Sep 2021
     gpt-3.5-turbo-16k: Up to Sep 2021
@@ -334,7 +338,8 @@ Training Data:
         self.model_label = customtkinter.CTkLabel(master=tab_view.tab("Options"), text="Model")
         self.model_label.grid(row=9, column=1, padx=10, pady=(3, 0), sticky="w")
         model_options = customtkinter.CTkOptionMenu(master=tab_view.tab("Options"),
-                                                    values=["gpt-4-1106-preview", "gpt-3.5-turbo-1106",
+                                                    values=["gpt-4-0125-preview", "gpt-4-turbo-preview",
+                                                            "gpt-4-1106-preview", "gpt-3.5-turbo-1106",
                                                             "gpt-3.5-turbo-16k", "gpt-3.5-turbo"],
                                                     width=350)
         model_options.grid(row=9, column=2, padx=10, pady=(3, 0), sticky="w")
